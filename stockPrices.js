@@ -57,7 +57,7 @@ function buyAndSell(arr){
     // console.log(sellPrice);
     // console.log(sellDate);
     console.log((buyDate + 1) + "(" + buyPrice + ")" + ",", (sellDate + 1) + "(" + sellPrice + ")")
-    return console.log("this will give a profit of £" + profit);
+    return ("this will give a profit of £" + profit);
 }
 
 console.log(buyAndSell(priceList1));
